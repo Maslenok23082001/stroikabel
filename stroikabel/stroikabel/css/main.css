@@ -1,0 +1,2293 @@
+@font-face {
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-family: roboto-reg;
+}
+@font-face {
+	src: url(../fonts/OpenSans-Regular.ttf);
+	font-family: opensans;
+}@font-face {
+	src: url(../fonts/OpenSans-Bold.ttf);
+	font-family: opensans-bold;
+}@font-face {
+	src: url(../fonts/Roboto-Bold.ttf);
+	font-family: roboto-bold;
+}
+body {
+	font-size: 0;
+	background-color: #ffffff;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.active_menu {
+	background-color: #007AFF;
+}
+#download_price {
+	position: absolute;
+	top: 288px;
+	left: -62px;
+	width: 154px;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 43px;
+	color: #ffffff;
+	z-index: 999;
+	background-color: #C9675E;
+	font-family: Myriad Pro;
+	text-transform: uppercase;
+	border-radius: 0 0 5px 5px;
+	transform: rotate(-90deg);
+	cursor: pointer;
+}
+#download_price:hover {
+	background-color: #67130A;
+}
+.wrapper {
+	padding: 0;
+	margin: 0;
+	width: 1170px;
+	margin: 0 auto;
+	/*background-color: #111111;*/
+}
+header {
+	width: 100%;
+	height: 190px;
+}
+header #logo {
+	width: 100%;
+	height: 119px;
+	padding-top: 26px;
+	position: relative;
+}
+header #logo #logotip {
+	background: url(../images/logotip.jpg) no-repeat;
+	width: 311px;
+	height: 55px;
+
+}
+header #logo #cabel_p {
+	width: 507px;
+	height: 66px;
+	padding-left: 70px;
+	position: absolute;
+	top: 30px;
+	left: 525px;
+	font-family: Myriad Pro;
+	font-size: 26px;
+	color: #464646;
+}
+header #logo #cabel_p #p1 {
+	padding: 0;
+	margin: 0;
+}
+header #logo #cabel_p #p2{
+	padding: 0;
+	margin: 0;
+	padding-top: 2px;
+	text-align: center;
+}
+header #main_menu {
+	width: 100%;
+	height: 44px;
+	background-color: #0068D9;
+	border-bottom: 1px solid #6B6665;
+}
+#svyaz {
+	width: 190px;
+	height: 119spx;
+	position: absolute;
+	top: 22px;
+	right: 215px;
+}
+#svyaz p#zvonite {
+	font-size: 14px;
+	font-family: Myriad Pro;
+	color: #464646;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+#svyaz p.number {
+	color: #3386E1;
+	font-size: 18px;
+	font-family: Myriad Pro;
+	padding: 0;
+	margin: 0;
+	float: right;
+	padding-top: 5px;
+}
+#svyaz button {
+	background-color: #00B05A;
+	width: 147px;
+	height: 33px;
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+	float: right;
+	margin-top: 5px;
+	color: #ffffff;
+	font-size: 14px;
+	cursor: pointer;
+}
+.clear {
+	clear: both;
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+	header #logo #cabel_p {
+		left: 320px;
+		font-size: 22px;
+	}
+	#svyaz {
+		right: 10px;
+	}
+	.wrapper {
+		width: 1000px;
+	}
+}
+#main_menu #menu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#menu li {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 180px;
+	height: 45px;
+
+}
+
+#menu li a {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 18px;
+	font-family: Myriad Pro;
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	line-height: 45px;
+
+}
+#menu li a:hover {
+	background-color: #007AFF;
+}
+#menu li#end_a {
+	position: absolute;
+	right: 0;
+}
+#menu li a#big_a {
+	width: 180px;
+	padding: 0 44px;
+}
+#menu li#otz_a {
+	position: absolute;
+	right: 180px;
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+	#main_menu #menu {
+		
+		padding-left: 40px;
+		
+		margin: 0 auto;
+	}
+	#menu li {
+		width: 125px;
+	}
+	#menu li#end_a {
+		position: absolute;
+		right: 55px;
+	}
+	#menu li#otz_a {
+		position: absolute;
+		right: 190px;
+	}
+	
+
+}
+content {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+
+#slider {
+	height: 400px;
+	width: 1583px;
+	padding: 0;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+	#slider {
+		width: 1000px;
+		margin: 0 auto;
+	}
+}
+#slider #left_strel {
+	background: url(../images/strel_l.png) no-repeat;
+	position: absolute;
+	top: 171px;
+	left: 65px;
+	width: 32px;
+	height: 55px;
+	cursor: pointer;
+}
+#slider #right_strel {
+	background: url(../images/strel_r.png) no-repeat;
+	position: absolute;
+	top: 171px;
+	right: 65px;	
+	width: 32px;
+	height: 55px;
+	cursor: pointer;
+}
+#slider #polosa {
+	width: 4749px;
+	height: 100%;
+}
+#slider #polosa .slider_text {
+	width: 1583px;
+	height: 100%;
+	float: left;
+	background: url(../images/background-slider.png) no-repeat;
+	background-size:1583px 100%;
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+	#slider #polosa .slider_text {
+		width: 1000px;
+	}
+}
+.slider_text_text {
+	width: 915px;
+	height: 251px;
+	border: 5px solid #ffffff;
+	margin: 0 auto;
+	font-size: 14px;
+	font-family: Myriad Pro;
+	margin-top: 40px;
+	padding-left: 45px;
+	padding-top: 57px;
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+	#slider #polosa .slider_text_text {
+		width: 707px;
+	}
+}
+.slider_text_text .bold_slider_text {
+	padding: 0;
+	margin: 0;
+	font-size: 36px;
+	color: #fff;
+	width: 355px;
+}
+.slider_text_text .small_slider_text {
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 20px;
+}
+.slider_text_text button {
+	width: 130px;
+	height: 35px;
+	background-color: #00B05A;
+	color: #fff;
+	border: none;
+	font-size: 14px;
+	margin-top: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.7s;
+	backface-visibility: hidden;
+}
+.slider_text_text button:hover {
+	transform: rotateX(180deg);
+}
+#dotted {
+	position: absolute;
+	width: 97px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 14px;
+	color: #fff;
+	padding: 0 30px;
+	top: 317px;
+	left: 715px;
+
+}
+#dotted .dot {
+	border-radius: 50%;
+	background-color: #FFF;
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	cursor: pointer;
+}
+#dotted .dot:hover {
+	background-color: #C7665D;
+}
+#dotted .center_dot {
+	margin: 0 7px;
+}
+#pop_production {
+	height: 256px;
+	padding-top: 40px;
+	width: 1170px;
+	margin: 0 auto;
+}
+#pop_production #pop_p {
+	padding: 0;
+	margin: 0;
+	font-size: 30px;
+	font-family: roboto-reg;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+
+}
+#pop_production .gerda {
+	display: inline-block;
+	margin-right: 20px;
+
+}
+#pop_production .end_g {
+	margin-left: 75px;
+}
+#pop_production .gerda .gerda_img {
+	width: 182px;
+	height: 118px;
+	background: url(../images/kabel_gerda.png) no-repeat;
+}
+#pop_production .gerda .gerda_podtext {
+	font-size: 14px;
+	font-family: Myriad Pro;
+	text-align: center;
+	color: #464646;
+	width: 192px;
+	padding-top: 10px;
+	margin: 0;
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+	#pop_production {
+		width: 1000px;
+	}
+	#pop_production .end_g {
+		margin-left: 15px;
+	}
+	#pop_production .gerda {
+		
+		margin-right: 0;
+
+	}
+}
+
+#clients {
+	width: 100%;
+	height: 527px;
+	background-color: #E9F0F6;
+	font-size: 14px;
+	font-family: opensans;
+	padding-top: 40px;
+}
+#clients_wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+#clients #clients_p {
+	font-size: 30px;
+	font-family: roboto-reg;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: #1B3B54;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	position: relative;
+}
+#clients #clients_p:after {
+	content: "";
+	display: block;
+	width: 230px;
+	border-bottom: 1px solid #D5D5D5;
+	position: absolute;
+	top: 17px;
+	left: -110px;
+}
+#clients #clients_p:before {
+	content: "";
+	display: block;
+	width: 230px;
+	border-bottom: 1px solid #D5D5D5;
+	position: absolute;
+	top: 17px;
+	right: -110px;
+}
+
+#clients .client {
+	margin-bottom: 50px;
+	float: left;
+	width: 218px;
+	height: 160px;
+	padding: 3px;
+}
+#clients .client .circle_clients {
+	border-radius: 50%;
+	border: 3px solid #00B05A;
+	width: 97px;
+	height: 97px;
+	margin: 0 auto;
+	background: url(../images/1.png) no-repeat;
+	background-position: 50% 50%;
+}
+#clients .client .client_podtext {
+	font-size: 14px ;
+	font-family: opensans;
+	color: #464646;
+	width: 100%;
+	text-align: center;
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+
+	#clients #clients_p:after {
+		content: "";
+		display: block;
+		width: 100px;
+		border-bottom: 1px solid #D5D5D5;
+		position: absolute;
+		top: 17px;
+		left: 7px;
+	}
+	#clients #clients_p:before {
+		content: "";
+		display: block;
+		width: 100px;
+		border-bottom: 1px solid #D5D5D5;
+		position: absolute;
+		top: 17px;
+		right: 7px;
+	}
+}
+
+#friends {
+	width: 100%;
+	height: 253px;
+	padding-top: 40px;
+	position: relative;
+}
+#friends #friends_p {
+	font-size: 30px;
+	font-family: roboto-reg;
+	color: #1B3B54;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#friends #friends_p:after {
+	content: "";
+	display: block;
+	width: 230px;
+	border-bottom: 1px solid #D5D5D5;
+	position: absolute;
+	top: 17px;
+	left: 360px;
+}
+#friends #friends_p:before {
+	content: "";
+	display: block;
+	width: 230px;
+	border-bottom: 1px solid #D5D5D5;
+	position: absolute;
+	top: 17px;
+	right: 360px;
+}
+#slider_friends {
+	width: 936px;
+	height: 200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#polosa_friends {
+	width: 1608px;
+	height: 200px;
+	padding: 0;
+	margin: 0;
+	transition: all 0.5s;
+}
+
+#friends #polosa_friends img {
+	float: left;
+	width: 132px;
+	height: 120px;
+	padding: 0;
+	margin: 0;
+	margin-right: 69px;
+	margin-top: 40px;
+}
+#arl {
+	background: url(../images/arl.png) no-repeat;
+	width: 30px;
+	height: 48px;
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	cursor: pointer;
+}
+#arr {
+	background: url(../images/arr.png) no-repeat;
+	width: 30px;
+	height: 48px;
+	position: absolute;
+	top: 150px;
+	right: 150px;
+	cursor: pointer;
+}
+
+#blue_ofter {
+	width: 100%;
+	height: 159px;
+	background-color: #0068D9;
+	padding-bottom: 11px;
+}
+#blue_ofter_p {
+	font-size: 30px;
+	font-family: roboto_bold;
+	text-align: center;
+	margin: 0;
+	color: #fff;
+	padding-top: 33px;
+	padding-bottom: 31px;
+	text-transform: uppercase;
+}
+#blue_ofter_zakaz {
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+	width: 226px;
+	height: 35px;
+	padding: 10px 35px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #0068D9;
+	font-size: 18px;
+	font-family: opensans-bold;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	line-height: 35px;
+	cursor: pointer;
+	transition: all 1s;
+
+}
+#blue_ofter_zakaz:hover {
+	background-color: #fff;
+	color: #0068D9;
+	border-color: #0068D9;
+
+}
+#priobreli {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 210px;
+	background-color: #E9F0F6;
+}
+#priobreli_p {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	height: 92px;
+	line-height: 92px;
+	font-size: 30px;
+	font-family: roboto-bold;
+	color: #1B3B54;
+	text-transform: uppercase;
+}
+#priobreli #metrs {
+	padding: 0;
+	margin: 0;
+	width: 491px;
+	height: 75px;
+	margin: 0 auto;
+	margin-bottom: 42px;
+	position: relative;
+}
+#priobreli .metrs_number, #priobreli .tire {
+	float: left;
+}
+#priobreli .metrs_number {
+	padding: 0;
+	margin: 0.5px;
+	width: 50px;
+	height: 100%;
+	border: 1px solid #BDC3C8;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 60px;
+	font-family: roboto-bold;
+	color: #464646;
+}
+#priobreli .tire {
+	padding: 0;
+	margin: 0;
+	width: 7px;
+	height: 100%;	
+}
+#priobreli #poloska_metrs {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 1.5px;
+	background-color: #FFFFFF;
+}
+footer {
+	width: 100%;
+	height: 257px;
+	padding: 0;
+	margin: 0;
+}
+#footer_wrapper {
+	width: 1157px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#kak_logo {
+	height: 165px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	border-bottom: 1px solid #CFCFCF;
+}
+#logotip_footer {
+	background: url(../images/logotip.jpg) no-repeat;
+	width: 311px;
+	height: 55px;
+	position: absolute;
+	top: 40px;
+}
+#cabel_p_footer {
+	width: 554px;
+	height: 66px;
+	padding-left: 70px;
+	position: absolute;
+	top: 60px;
+	left: 315px;
+	font-family: roboto-bold;
+	font-size: 26px;
+	color: #464646;
+}
+#p1_footer {
+	padding: 0;
+	margin: 0;
+}
+#p2_footer {
+	padding: 0;
+	margin: 0;
+	padding-top: 2px;
+	text-align: center;
+}
+#svyaz_footer {
+	width: 190px;
+	height: 119spx;
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+#zvonite_footer {
+	font-size: 14px;
+	font-family: Myriad Pro;
+	color: #464646;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+#kak_logo .number {
+	color: #3386E1;
+	font-size: 18px;
+	font-family: Myriad Pro;
+	padding: 0;
+	margin: 0;
+	float: right;
+	padding-top: 5px;
+}
+#svyaz_footer button {
+	background-color: #00B05A;
+	width: 147px;
+	height: 33px;
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+	float: right;
+	margin-top: 5px;
+	color: #ffffff;
+	font-size: 14px;
+	cursor: pointer;
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+	footer {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	footer #footer_wrapper {
+		width: 960px;
+		margin: 0 auto;
+	}
+	#cabel_p_footer {
+		left: 270px;
+		font-size: 22px;
+	}
+	#svyaz_footer {
+		right: 10px;
+	}
+	#arl {
+		top: 130px;
+		left: 30px;
+	}
+	#arr {
+		top: 130px;
+		right: 30px;
+	}
+}
+#foot_foot {
+	height: 92px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#foot_foot #logo_foot {
+	background: url(../images/justlike.png) no-repeat;
+	width: 79px;
+	height: 38px;
+	position: absolute;
+	top: 25px;
+	left: 0;
+}
+#confid {
+	width: 219px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 40px;
+	left: 483px;
+}
+#confid a {
+	color: #227CDE;
+	font-family: opensans;
+	font-size: 14px;
+
+}
+#prava_dif {
+	font-family: opensans;
+	font-size: 14px;
+	color: #464646;
+	width: 218px;
+	position: absolute;
+	top: 26px;
+	right: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------
+------------------------------------------
+999 ------ 700
+----------------------------------------
+--------------------------------------------- 
+
+*/
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 999px) and (min-width: 700px) {
+		#download_price {
+		position: absolute;
+		top: 288px;
+		left: -62px;
+		width: 154px;
+		height: 30px;
+		font-size: 14px;
+		text-align: center;
+		line-height: 43px;
+		color: #ffffff;
+		z-index: 999;
+		background-color: #C9675E;
+		font-family: Myriad Pro;
+		text-transform: uppercase;
+		border-radius: 0 0 5px 5px;
+		transform: rotate(-90deg);
+		cursor: pointer;
+	}
+	#download_price:hover {
+		background-color: #67130A;
+	}
+	.wrapper {
+		padding: 0;
+		margin: 0;
+		width: 700px;
+		margin: 0 auto;
+		/*background-color: #111111;*/
+	}
+	header {
+		width: 100%;
+		height: 190px;
+	}
+	header #logo {
+		width: 100%;
+		height: 87px;
+		padding-top: 26px;
+		position: relative;
+	}
+	header #logo #logotip {
+		background: url(../images/logotip.jpg) no-repeat;
+		width: 311px;
+		height: 55px;
+
+	}
+	header #logo #cabel_p {
+		width: 507px;
+		height: 66px;
+		padding-left: 70px;
+		position: absolute;
+		top: 30px;
+		left: 525px;
+		font-family: Myriad Pro;
+		font-size: 26px;
+		color: #464646;
+		display: none;
+	}
+	header #logo #cabel_p #p1 {
+		padding: 0;
+		margin: 0;
+	}
+	header #logo #cabel_p #p2{
+		padding: 0;
+		margin: 0;
+		padding-top: 2px;
+		text-align: center;
+	}
+	header #main_menu {
+		width: 100%;
+		height: 76px;
+		background-color: #0068D9;
+		border-bottom: 1px solid #6B6665;
+	}
+	#svyaz {
+		width: 190px;
+		height: 90px;
+		position: absolute;
+		top: 22px;
+		right: 215px;
+	}
+	#svyaz p#zvonite {
+		font-size: 14px;
+		font-family: Myriad Pro;
+		color: #464646;
+		padding: 0;
+		margin: 0;
+		float: right;
+	}
+	#svyaz p.number {
+		color: #3386E1;
+		font-size: 14px;
+		font-family: Myriad Pro;
+		padding: 0;
+		margin: 0;
+		float: right;
+		padding-top: 1px;
+	}
+	#svyaz button {
+		background-color: #00B05A;
+		width: 147px;
+		height: 25px;
+		text-align: center;
+		border-radius: 5px;
+		border: none;
+		float: right;
+		margin-top: 5px;
+		color: #ffffff;
+		font-size: 14px;
+		cursor: pointer;
+	}
+	.clear {
+		clear: both;
+	}
+	
+	#main_menu #menu {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		position: relative;
+	}
+	#menu li {
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+		width: 176px;
+		height: 35px;
+
+	}
+
+	#menu li a {
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+		color: #FFF;
+		font-size: 18px;
+		font-family: Myriad Pro;
+		display: block;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		line-height: 45px;
+
+	}
+	#menu li a:hover {
+		background-color: #007AFF;
+	}
+	#menu li#end_a {
+		position: absolute;
+		right: 0;
+	}
+	#menu li a#big_a {
+		width: 180px;
+		padding: 0 44px;
+	}
+	#menu li#otz_a {
+		position: absolute;
+		right: 180px;
+	}
+	#menu .wrapper {
+		width: 700px;
+	}
+	
+	content {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+
+	#slider {
+		height: 400px;
+		width: 700px;
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	#slider #left_strel {
+		background: url(../images/strel_l.png) no-repeat;
+		position: absolute;
+		top: 171px;
+		left: 65px;
+		width: 32px;
+		height: 55px;
+		cursor: pointer;
+	}
+	#slider #right_strel {
+		background: url(../images/strel_r.png) no-repeat;
+		position: absolute;
+		top: 171px;
+		right: 65px;	
+		width: 32px;
+		height: 55px;
+		cursor: pointer;
+	}
+	#slider #polosa {
+		width: 4749px;
+		height: 100%;
+	}
+	#slider #polosa .slider_text {
+		width: 700px;
+		height: 100%;
+		float: left;
+		background: url(../images/background-slider.png) no-repeat;
+		background-size:1583px 100%;
+	}
+	
+	.slider_text_text {
+		width: 415px;
+		height: 251px;
+		border: 5px solid #ffffff;
+		margin: 0 auto;
+		font-size: 14px;
+		font-family: Myriad Pro;
+		margin-top: 40px;
+		padding-left: 45px;
+		padding-top: 57px;
+	}
+	
+	.slider_text_text .bold_slider_text {
+		padding: 0;
+		margin: 0;
+		font-size: 36px;
+		color: #fff;
+		width: 355px;
+	}
+	.slider_text_text .small_slider_text {
+		padding: 0;
+		margin: 0;
+		font-size: 18px;
+		color: #fff;
+		margin-top: 20px;
+	}
+	.slider_text_text button {
+		width: 130px;
+		height: 35px;
+		background-color: #00B05A;
+		color: #fff;
+		border: none;
+		font-size: 14px;
+		margin-top: 20px;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: all 0.7s;
+		backface-visibility: hidden;
+	}
+	.slider_text_text button:hover {
+		transform: rotateX(180deg);
+	}
+	#dotted {
+		position: absolute;
+		width: 97px;
+		height: 90px;
+		line-height: 90px;
+		font-size: 14px;
+		color: #fff;
+		padding: 0 30px;
+		top: 317px;
+		left: 715px;
+
+	}
+	#dotted .dot {
+		border-radius: 50%;
+		background-color: #FFF;
+		width: 22px;
+		height: 22px;
+		display: inline-block;
+		cursor: pointer;
+	}
+	#dotted .dot:hover {
+		background-color: #C7665D;
+	}
+	#dotted .center_dot {
+		margin: 0 7px;
+	}
+	#pop_production {
+		height:387px;
+		padding-top: 40px;
+		padding-left: 30px;
+		width: 670px;
+		margin: 0 auto;
+	}
+	#pop_production #pop_p {
+		padding: 0;
+		margin: 0;
+		font-size: 30px;
+		font-family: roboto-reg;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 40px;
+
+	}
+	#pop_production .gerda {
+		display: inline-block;
+		margin-right: 20px;
+
+	}
+	#pop_production .end_g {
+		margin-left: 75px;
+	}
+	#pop_production .gerda .gerda_img {
+		width: 182px;
+		height: 118px;
+		background: url(../images/kabel_gerda.png) no-repeat;
+	}
+	#pop_production .gerda .gerda_podtext {
+		font-size: 14px;
+		font-family: Myriad Pro;
+		text-align: center;
+		color: #464646;
+		width: 192px;
+		padding-top: 10px;
+		margin: 0;
+	}
+	
+
+	#clients {
+		width: 100%;
+		height: 667px;
+		background-color: #E9F0F6;
+		font-size: 13px;
+		font-family: opensans;
+		padding-top: 40px;
+	}
+	#clients_wrapper {
+		width: 700px;
+		margin: 0 auto;
+	}
+	#clients #clients_p {
+		font-size: 23px;
+		font-family: roboto-reg;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		color: #1B3B54;
+		margin-bottom: 40px;
+		text-transform: uppercase;
+		position: relative;
+	}
+	#clients #clients_p:after {
+		content: "";
+		display: block;
+		width: 100px;
+		border-bottom: 1px solid #D5D5D5;
+		position: absolute;
+		top: 13px;
+		left: 3px;
+	}
+	#clients #clients_p:before {
+		content: "";
+		display: block;
+		width: 100px;
+		border-bottom: 1px solid #D5D5D5;
+		position: absolute;
+		top: 13px;
+		right: 3px;
+	}
+
+	#clients .client {
+		margin-bottom: 50px;
+		float: left;
+		width: 200px;
+		height: 160px;
+		padding: 3px;
+	}
+	#clients .client .circle_clients {
+		border-radius: 50%;
+		border: 3px solid #00B05A;
+		width: 60px;
+		height: 60px;
+		margin: 0 auto;
+		background: url(../images/1.png) no-repeat;
+		background-position: 50% 50%;
+		background-size: 100% 100%;
+	}
+	#clients .client .client_podtext {
+		font-size: 13px ;
+		font-family: opensans;
+		color: #464646;
+		width: 100%;
+		text-align: center;
+	}
+	
+
+	#friends {
+		width: 100%;
+		height: 253px;
+		padding-top: 40px;
+		position: relative;
+	}
+	#friends #friends_p {
+		font-size: 30px;
+		font-family: roboto-reg;
+		color: #1B3B54;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		position: relative;
+	}
+	#friends #friends_p:after {
+		content: "";
+		display: block;
+		width: 230px;
+		border-bottom: 1px solid #D5D5D5;
+		position: absolute;
+		top: 17px;
+		left: 360px;
+	}
+	#friends #friends_p:before {
+		content: "";
+		display: block;
+		width: 230px;
+		border-bottom: 1px solid #D5D5D5;
+		position: absolute;
+		top: 17px;
+		right: 360px;
+	}
+	#slider_friends {
+		width: 700px;
+		height: 200px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	#polosa_friends {
+		width: 1608px;
+		height: 200px;
+		padding: 0;
+		margin: 0;
+		transition: all 0.5s;
+	}
+
+	#friends #polosa_friends img {
+		float: left;
+		width: 123px;
+		height: 120px;
+		padding: 0;
+		margin: 0;
+		margin-right: 69px;
+		margin-top: 40px;
+	}
+	#arl {
+		background: url(../images/arl.png) no-repeat;
+		width: 30px;
+		height: 48px;
+		position: absolute;
+		top: 150px;
+		left: 150px;
+		cursor: pointer;
+	}
+	#arr {
+		background: url(../images/arr.png) no-repeat;
+		width: 30px;
+		height: 48px;
+		position: absolute;
+		top: 150px;
+		right: 150px;
+		cursor: pointer;
+	}
+
+	#blue_ofter {
+		width: 100%;
+		height: 159px;
+		background-color: #0068D9;
+		padding-bottom: 11px;
+	}
+	#blue_ofter_p {
+		font-size: 24px;
+		font-family: roboto_bold;
+		text-align: center;
+		margin: 0;
+		color: #fff;
+		padding-top: 33px;
+		padding-bottom: 31px;
+		text-transform: uppercase;
+	}
+	#blue_ofter_zakaz {
+		color: #fff;
+		text-transform: uppercase;
+		display: block;
+		width: 226px;
+		height: 35px;
+		padding: 10px 35px;
+		text-align: center;
+		margin: 0 auto;
+		background-color: #0068D9;
+		font-size: 18px;
+		font-family: opensans-bold;
+		border: 3px solid #fff;
+		border-radius: 5px;
+		line-height: 35px;
+		cursor: pointer;
+		transition: all 1s;
+
+	}
+	#blue_ofter_zakaz:hover {
+		background-color: #fff;
+		color: #0068D9;
+		border-color: #0068D9;
+
+	}
+	#priobreli {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		height: 210px;
+		background-color: #E9F0F6;
+	}
+	#priobreli_p {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		text-align: center;
+		height: 92px;
+		line-height: 92px;
+		font-size: 30px;
+		font-family: roboto-bold;
+		color: #1B3B54;
+		text-transform: uppercase;
+	}
+	#priobreli #metrs {
+		padding: 0;
+		margin: 0;
+		width: 491px;
+		height: 75px;
+		margin: 0 auto;
+		margin-bottom: 42px;
+		position: relative;
+	}
+	#priobreli .metrs_number, #priobreli .tire {
+		float: left;
+	}
+	#priobreli .metrs_number {
+		padding: 0;
+		margin: 0.5px;
+		width: 50px;
+		height: 100%;
+		border: 1px solid #BDC3C8;
+		border-radius: 5px;
+		text-align: center;
+		line-height: 75px;
+		font-size: 60px;
+		font-family: roboto-bold;
+		color: #464646;
+	}
+	#priobreli .tire {
+		padding: 0;
+		margin: 0;
+		width: 7px;
+		height: 100%;	
+	}
+	#priobreli #poloska_metrs {
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		height: 1.5px;
+		background-color: #FFFFFF;
+	}
+	/*footer {
+		width: 100%;
+		height: 257px;
+		padding: 0;
+		margin: 0;
+	}
+	#footer_wrapper {
+		width: 1157px;
+		margin: 0 auto;
+		padding: 0;
+	}*/
+
+	#kak_logo {
+		height: 165px;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		position: relative;
+		border-bottom: 1px solid #CFCFCF;
+	}
+	#logotip_footer {
+		background: url(../images/logotip.jpg) no-repeat;
+		width: 211px;
+		height: 45px;
+		position: absolute;
+		top: 40px;
+		background-size: 100% 100%;
+	}
+	#cabel_p_footer {
+		width: 554px;
+		height: 66px;
+		padding-left: 70px;
+		position: absolute;
+		top: 60px;
+		left: 315px;
+		font-family: roboto-bold;
+		font-size: 26px;
+		color: #464646;
+	}
+	#p1_footer {
+		padding: 0;
+		margin: 0;
+	}
+	#p2_footer {
+		padding: 0;
+		margin: 0;
+		padding-top: 2px;
+		text-align: center;
+	}
+	#svyaz_footer {
+		width: 190px;
+		height: 119spx;
+		position: absolute;
+		top: 40px;
+		right: 0;
+	}
+	#zvonite_footer {
+		font-size: 14px;
+		font-family: Myriad Pro;
+		color: #464646;
+		padding: 0;
+		margin: 0;
+		float: right;
+	}
+	#kak_logo .number {
+		color: #3386E1;
+		font-size: 18px;
+		font-family: Myriad Pro;
+		padding: 0;
+		margin: 0;
+		float: right;
+		padding-top: 5px;
+	}
+	#svyaz_footer button {
+		background-color: #00B05A;
+		width: 147px;
+		height: 33px;
+		text-align: center;
+		border-radius: 5px;
+		border: none;
+		float: right;
+		margin-top: 5px;
+		color: #ffffff;
+		font-size: 14px;
+		cursor: pointer;
+	}
+	
+	#foot_foot {
+		height: 92px;
+		padding: 0;
+		margin: 0;
+		position: relative;
+	}
+	#foot_foot #logo_foot {
+		background: url(../images/justlike.png) no-repeat;
+		width: 79px;
+		height: 38px;
+		position: absolute;
+		top: 25px;
+		left: 0;
+	}
+	#confid {
+		width: 219px;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 40px;
+		left: 183px;
+	}
+	#confid a {
+		color: #227CDE;
+		font-family: opensans;
+		font-size: 14px;
+
+	}
+	#prava_dif {
+		font-family: opensans;
+		font-size: 14px;
+		color: #464646;
+		width: 200px;
+		position: absolute;
+		top: 26px;
+		right: 0;
+
+	}
+	footer {
+		width: 700px;
+		margin: 0 auto;
+	}
+	footer #footer_wrapper {
+		width: 660px;
+		margin: 0 auto;
+	}
+	#cabel_p_footer {
+		left: 240px;
+		font-size: 14px;
+		width: 130px;
+		top: 20px;
+	}
+	#svyaz_footer {
+		right: 10px;
+	}
+	#arl {
+		top: 130px;
+		left: 30px;
+	}
+	#arr {
+		top: 130px;
+		right: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+-------------------------------------------
+------------------------------------------
+699 ------ 450
+----------------------------------------
+--------------------------------------------- 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 699px) and (min-width: 450px) {
+		#download_price {
+		position: absolute;
+		top: 288px;
+		left: -62px;
+		width: 154px;
+		height: 30px;
+		font-size: 14px;
+		text-align: center;
+		line-height: 43px;
+		color: #ffffff;
+		z-index: 999;
+		background-color: #C9675E;
+		font-family: Myriad Pro;
+		text-transform: uppercase;
+		border-radius: 0 0 5px 5px;
+		transform: rotate(-90deg);
+		cursor: pointer;
+	}
+	#download_price:hover {
+		background-color: #67130A;
+	}
+	.wrapper {
+		padding: 0;
+		margin: 0;
+		width: 450px;
+		margin: 0 auto;
+		/*background-color: #111111;*/
+	}
+	header {
+		width: 100%;
+		height: 344px;
+	}
+	header #logo {
+		width: 100%;
+		height: 87px;
+		padding-top: 26px;
+		position: relative;
+	}
+	header #logo #logotip {
+		background: url(../images/logotip.jpg) no-repeat;
+		width: 200px;
+		height: 35px;
+		margin-left: 27%;
+		background-size: 100% 100%;
+	}
+	header #logo #cabel_p {
+		width: 507px;
+		height: 66px;
+		padding-left: 70px;
+		position: absolute;
+		top: 30px;
+		left: 525px;
+		font-family: Myriad Pro;
+		font-size: 26px;
+		color: #464646;
+		display: none;
+	}
+	header #logo #cabel_p #p1 {
+		padding: 0;
+		margin: 0;
+	}
+	header #logo #cabel_p #p2{
+		padding: 0;
+		margin: 0;
+		padding-top: 2px;
+		text-align: center;
+	}
+	header #main_menu {
+		width: 100%;
+		height: 230px;
+		background-color: #0068D9;
+		border-bottom: 1px solid #6B6665;
+	}
+	#svyaz {
+		width: 190px;
+		height: 90px;
+		position: absolute;
+		top: 22px;
+		right: 215px;
+		display: none;
+	}
+	#svyaz p#zvonite {
+		font-size: 14px;
+		font-family: Myriad Pro;
+		color: #464646;
+		padding: 0;
+		margin: 0;
+		float: right;
+	}
+	#svyaz p.number {
+		color: #3386E1;
+		font-size: 14px;
+		font-family: Myriad Pro;
+		padding: 0;
+		margin: 0;
+		float: right;
+		padding-top: 1px;
+	}
+	#svyaz button {
+		background-color: #00B05A;
+		width: 147px;
+		height: 25px;
+		text-align: center;
+		border-radius: 5px;
+		border: none;
+		float: right;
+		margin-top: 5px;
+		color: #ffffff;
+		font-size: 14px;
+		cursor: pointer;
+	}
+	.clear {
+		clear: both;
+	}
+	
+	#main_menu #menu {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		position: relative;
+	}
+	#menu li {
+		padding: 0;
+		margin: 0;
+		display: block;
+		width: 100%;
+		height: 38px;
+		text-align: center;
+	}
+
+	#menu li a {
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+		color: #FFF;
+		font-size: 18px;
+		font-family: Myriad Pro;
+		display: block;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		line-height: 45px;
+
+	}
+	#menu li a:hover {
+		background-color: #007AFF;
+	}
+	#menu li#end_a {
+		width: 100%;
+		position: initial;
+	}
+	#menu li a#big_a {
+		width: 180px;
+		padding: 0 134px;
+	}
+	#menu li#otz_a {
+		width: 100%;
+		position: initial;
+	}
+	#menu .wrapper {
+		width: 700px;
+	}
+	
+	content {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+
+	#slider {
+		height: 400px;
+		width: 450px;
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	#slider #left_strel {
+		background: url(../images/strel_l.png) no-repeat;
+		position: absolute;
+		top: 171px;
+		left: 65px;
+		width: 32px;
+		height: 55px;
+		cursor: pointer;
+	}
+	#slider #right_strel {
+		background: url(../images/strel_r.png) no-repeat;
+		position: absolute;
+		top: 171px;
+		right: 65px;	
+		width: 32px;
+		height: 55px;
+		cursor: pointer;
+	}
+	#slider #polosa {
+		width: 4749px;
+		height: 100%;
+	}
+	#slider #polosa .slider_text {
+		width: 450px;
+		height: 100%;
+		float: left;
+		background: url(../images/background-slider.png) no-repeat;
+		background-size:1583px 100%;
+	}
+	
+	.slider_text_text {
+		width: 200px;
+		height: 251px;
+		border: 5px solid #ffffff;
+		margin: 0 auto;
+		font-size: 12px;
+		font-family: Myriad Pro;
+		margin-top: 40px;
+		padding-left: 25px;
+		padding-top: 57px;
+	}
+	
+	.slider_text_text .bold_slider_text {
+		padding: 0;
+		margin: 0;
+		font-size: 20px;
+		color: #fff;
+		width: 255px;
+	}
+	.slider_text_text .small_slider_text {
+		padding: 0;
+		margin: 0;
+		font-size: 10px;
+		color: #fff;
+		margin-top: 20px;
+	}
+	.slider_text_text button {
+		width: 130px;
+		height: 35px;
+		background-color: #00B05A;
+		color: #fff;
+		border: none;
+		font-size: 14px;
+		margin-top: 20px;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: all 0.7s;
+		backface-visibility: hidden;
+	}
+	.slider_text_text button:hover {
+		transform: rotateX(180deg);
+	}
+	#dotted {
+		position: absolute;
+		width: 97px;
+		height: 90px;
+		line-height: 90px;
+		font-size: 14px;
+		color: #fff;
+		padding: 0 30px;
+		top: 317px;
+		left: 715px;
+
+	}
+	#dotted .dot {
+		border-radius: 50%;
+		background-color: #FFF;
+		width: 22px;
+		height: 22px;
+		display: inline-block;
+		cursor: pointer;
+	}
+	#dotted .dot:hover {
+		background-color: #C7665D;
+	}
+	#dotted .center_dot {
+		margin: 0 7px;
+	}
+	#pop_production {
+		height:890px;
+		padding-top: 40px;
+		padding-left: 20px;
+		width: 450px;
+		margin: 0 auto;
+	}
+	#pop_production #pop_p {
+		padding: 0;
+		margin: 0;
+		font-size: 14px;
+		font-family: roboto-reg;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 40px;
+
+	}
+	#pop_production .gerda {
+		display: block;
+		margin-right: 0;
+		margin-left: 30%;
+	}
+	#pop_production .end_g {
+		margin-left: 30%;
+	}
+	#pop_production .gerda .gerda_img {
+		width: 160px;
+		height: 118px;
+		background: url(../images/kabel_gerda.png) no-repeat;
+	}
+	#pop_production .gerda .gerda_podtext {
+		font-size: 12px;
+		font-family: Myriad Pro;
+		text-align: center;
+		color: #464646;
+		width: 192px;
+		padding-top: 10px;
+		margin: 0;
+	}
+	
+
+	#clients {
+		width: 450px;
+		height: 900px;
+		background-color: #E9F0F6;
+		font-size: 13px;
+		font-family: opensans;
+		padding-top: 40px;
+	}
+	#clients_wrapper {
+		width: 450px;
+		margin: 0 auto;
+	}
+	#clients #clients_p {
+		font-size: 18px;
+		font-family: roboto-reg;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		color: #1B3B54;
+		margin-bottom: 40px;
+		text-transform: uppercase;
+		position: relative;
+	}
+	#clients #clients_p:after {
+		content: "";
+		display: none;
+		width: 100px;
+		border-bottom: 1px solid #D5D5D5;
+		position: absolute;
+		top: 13px;
+		left: 3px;
+	}
+	#clients #clients_p:before {
+		content: "";
+		display: none;
+		width: 100px;
+		border-bottom: 1px solid #D5D5D5;
+		position: absolute;
+		top: 13px;
+		right: 3px;
+	}
+
+	#clients .client {
+		margin-bottom: 50px;
+		float: left;
+		width: 200px;
+		height: 160px;
+		padding: 3px;
+	}
+	#clients .client .circle_clients {
+		border-radius: 50%;
+		border: 3px solid #00B05A;
+		width: 60px;
+		height: 60px;
+		margin: 0 auto;
+		background: url(../images/1.png) no-repeat;
+		background-position: 50% 50%;
+		background-size: 100% 100%;
+	}
+	#clients .client .client_podtext {
+		font-size: 13px ;
+		font-family: opensans;
+		color: #464646;
+		width: 100%;
+		text-align: center;
+	}
+	
+
+	#friends {
+		width: 100%;
+		height: 253px;
+		padding-top: 40px;
+		position: relative;
+	}
+	#friends #friends_p {
+		font-size: 24px;
+		font-family: roboto-reg;
+		color: #1B3B54;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		position: relative;
+	}
+	#friends #friends_p:after {
+		content: "";
+		display: none;
+		width: 230px;
+		border-bottom: 1px solid #D5D5D5;
+		position: absolute;
+		top: 17px;
+		left: 360px;
+	}
+	#friends #friends_p:before {
+		content: "";
+		display: none;
+		width: 230px;
+		border-bottom: 1px solid #D5D5D5;
+		position: absolute;
+		top: 17px;
+		right: 360px;
+	}
+	#slider_friends {
+		width: 450px;
+		height: 200px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	#polosa_friends {
+		width: 1608px;
+		height: 200px;
+		padding: 0;
+		margin: 0;
+		transition: all 0.5s;
+	}
+
+	#friends #polosa_friends img {
+		float: left;
+		width: 100px;
+		height: 120px;
+		padding: 0;
+		margin: 0;
+		margin-right: 69px;
+		margin-top: 40px;
+	}
+	#arl {
+		background: url(../images/arl.png) no-repeat;
+		width: 30px;
+		height: 48px;
+		position: absolute;
+		top: 150px;
+		left: 150px;
+		cursor: pointer;
+	}
+	#arr {
+		background: url(../images/arr.png) no-repeat;
+		width: 30px;
+		height: 48px;
+		position: absolute;
+		top: 150px;
+		right: 150px;
+		cursor: pointer;
+	}
+
+	#blue_ofter {
+		width: 100%;
+		height: 159px;
+		background-color: #0068D9;
+		padding-bottom: 11px;
+	}
+	#blue_ofter_p {
+		font-size: 22px;
+		font-family: roboto_bold;
+		text-align: center;
+		margin: 0;
+		color: #fff;
+		padding-top: 33px;
+		padding-bottom: 31px;
+		text-transform: uppercase;
+	}
+	#blue_ofter_zakaz {
+		color: #fff;
+		text-transform: uppercase;
+		display: block;
+		width: 226px;
+		height: 35px;
+		padding: 10px 35px;
+		text-align: center;
+		margin: 0 auto;
+		background-color: #0068D9;
+		font-size: 18px;
+		font-family: opensans-bold;
+		border: 3px solid #fff;
+		border-radius: 5px;
+		line-height: 35px;
+		cursor: pointer;
+		transition: all 1s;
+
+	}
+	#blue_ofter_zakaz:hover {
+		background-color: #fff;
+		color: #0068D9;
+		border-color: #0068D9;
+
+	}
+	#priobreli {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		height: 233px;
+		background-color: #E9F0F6;
+	}
+	#priobreli_p {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		text-align: center;
+		height: 92px;
+		line-height: 92px;
+		font-size: 21px;
+		font-family: roboto-bold;
+		color: #1B3B54;
+		text-transform: uppercase;
+	}
+	#priobreli #metrs {
+		padding: 0;
+		margin: 0;
+		width: 445px;
+		height: 75px;
+		margin: 0 auto;
+		margin-bottom: 42px;
+		padding-left: 5px;
+		position: relative;
+	}
+	#priobreli .metrs_number, #priobreli .tire {
+		float: left;
+	}
+	#priobreli .metrs_number {
+		padding: 0;
+		margin: 0.5px;
+		width: 43px;
+		height: 100%;
+		border: 1px solid #BDC3C8;
+		border-radius: 5px;
+		text-align: center;
+		line-height: 75px;
+		font-size: 60px;
+		font-family: roboto-bold;
+		color: #464646;
+	}
+	#priobreli .tire {
+		padding: 0;
+		margin: 0;
+		width: 7px;
+		height: 100%;	
+	}
+	#priobreli #poloska_metrs {
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		height: 1.5px;
+		background-color: #FFFFFF;
+	}
+	/*footer {
+		width: 100%;
+		height: 257px;
+		padding: 0;
+		margin: 0;
+	}
+	#footer_wrapper {
+		width: 1157px;
+		margin: 0 auto;
+		padding: 0;
+	}*/
+
+	#kak_logo {
+		height: 165px;
+		width: 424px;
+		padding: 0;
+		margin: 0;
+		position: relative;
+		border-bottom: 1px solid #CFCFCF;
+	}
+	#logotip_footer {
+		background: url(../images/logotip.jpg) no-repeat;
+		width: 150px;
+		height: 45px;
+		position: absolute;
+		top: 40px;
+		background-size: 100% 100%;
+	}
+	#cabel_p_footer {
+		width: 530px;
+		height: 66px;
+		padding-left: 70px;
+		position: absolute;
+		top: 60px;
+		left: 280px;
+		font-family: roboto-bold;
+		font-size: 26px;
+		color: #464646;
+	}
+	#p1_footer {
+		padding: 0;
+		margin: 0;
+	}
+	#p2_footer {
+		padding: 0;
+		margin: 0;
+		padding-top: 2px;
+		text-align: center;
+	}
+	#svyaz_footer {
+		width: 190px;
+		height: 119spx;
+		position: absolute;
+		top: 40px;
+		right: 0;
+		display: none;
+	}
+	#zvonite_footer {
+		font-size: 14px;
+		font-family: Myriad Pro;
+		color: #464646;
+		padding: 0;
+		margin: 0;
+		float: right;
+	}
+	#kak_logo .number {
+		color: #3386E1;
+		font-size: 18px;
+		font-family: Myriad Pro;
+		padding: 0;
+		margin: 0;
+		float: right;
+		padding-top: 5px;
+	}
+	#svyaz_footer button {
+		background-color: #00B05A;
+		width: 147px;
+		height: 33px;
+		text-align: center;
+		border-radius: 5px;
+		border: none;
+		float: right;
+		margin-top: 5px;
+		color: #ffffff;
+		font-size: 14px;
+		cursor: pointer;
+	}
+	
+	#foot_foot {
+		height: 92px;
+		width: 450px;
+		padding: 0;
+		margin: 0 auto;
+		position: relative;
+	}
+	#foot_foot #logo_foot {
+		background: url(../images/justlike.png) no-repeat;
+		width: 79px;
+		height: 38px;
+		position: absolute;
+		top: 25px;
+		left: 0;
+	}
+	#confid {
+		width: 194px;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 20px;
+		left: 88px;
+	}
+	#confid a {
+		color: #227CDE;
+		font-family: opensans;
+		font-size: 14px;
+
+	}
+	#prava_dif {
+		font-family: opensans;
+		font-size: 13px;
+		color: #464646;
+		width: 200px;
+		position: absolute;
+		top: 26px;
+		right: 2px;
+
+	}
+	footer {
+		width: 440px;
+		margin: 0 auto;
+	}
+	footer #footer_wrapper {
+		width: 440px;
+		padding-left: 10px;
+	}
+	#cabel_p_footer {
+		left: 120px;
+		font-size: 14px;
+		width: 264px;
+		top: 42px;
+	}
+	#svyaz_footer {
+		right: 10px;
+	}
+	#arl {
+		top: 130px;
+		left: 30px;
+	}
+	#arr {
+		top: 130px;
+		right: 30px;
+	}
+}
